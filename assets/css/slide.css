@@ -1,0 +1,30 @@
+.content-slide {
+    background-color: var(--white-color);
+    margin: 0 auto;
+}
+
+.slide {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.slide-item {
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.slide-item-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    color: var(--main-color);
+}

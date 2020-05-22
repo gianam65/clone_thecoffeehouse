@@ -1,0 +1,240 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    /* Header */
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__nav-logo {
+        display: none;
+        font-size: 1.8rem;
+    }
+
+    .header__nav-mobile {
+        display: flex;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .content-top {
+        min-height: 600px;
+    }
+
+    .content-title {
+        margin-top: 20%;
+    }
+
+    .content-buy {
+        margin-top: 15%;
+    }
+
+    .option-title {
+        font-size: 4.2rem;
+    }
+
+    .content-middle-blog-item {
+        margin-top: 30px;
+    }
+
+    .content-shop-detail {
+        flex-direction: column-reverse;
+    }
+
+    .content-shop-detail-img img {
+        margin-left: 0;
+    }
+
+    .content-shop-detail-item {
+        margin-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .content-shop-detail-item-desc {
+        padding-right: 10px;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+    
+    .footer-heading-list {
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+       display: none;
+    }
+   
+    .nav-mobile-bars {
+        padding-left: 15px;
+    }
+
+    .header__nav-mobile-logo {
+        padding-right: 10px;
+    }
+
+    .content-top {
+        min-height: 470px;
+        background-position: center;
+    }
+
+    .content-title {
+        font-size: 2.2rem;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    .content-desc {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .content-buy {
+        font-size: 1.4rem;
+        padding: 6px;
+        left: 30%;
+        margin-top: 15%;
+    }
+
+    .option-title {
+        font-size: 3rem; 
+        padding-left: 10px;
+    }
+
+    .option-all {
+        font-size: 1.4rem;
+        padding: 2px 10px;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .home-product-item-name {
+        font-size: 1.6rem;
+        letter-spacing: -1px;
+    }
+
+    .home-product-item-price {
+        font-size: 1.6rem;
+        letter-spacing: -1px;
+    }
+
+    .home-product-item-buy {
+        text-align: center;
+        overflow: hidden;
+        padding: 2px 20px;
+        height: 3rem;
+    }
+
+    .home-product-item-more {
+        overflow: hidden;
+        max-height: 3rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        margin-top: -4px;
+    }
+
+    .content-middle {
+        padding-bottom: 0;
+    }
+
+    .content-middle-blog-item {
+        margin-top: 20px;
+    }
+
+    .middle-blog-link {
+        font-size: 1.5rem;
+    }
+
+    .middle-blog-note {
+        font-size: 1.4rem;
+    }
+
+    .middle-blog-more {
+        font-size: 1.4rem;
+        padding: 0.4rem 1.2rem;
+    }
+
+    .content-shop-detail {
+        flex-direction: column-reverse;
+    }
+
+    .content-shop-detail-img img {
+        margin-left: unset;
+    }
+
+    .content-shop-detail-item {
+        margin-top: 15%;
+    }
+
+    .content-shop-detail-item-desc {
+        font-size: 1.4rem;
+        padding-right: 2rem;
+    }
+
+    .about-we-desc {
+        padding: 0rem 2.5rem !important;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+
+    .footer-heading-list {
+        text-align: center;
+    }
+}
+    
+/* Small tablet */
+@media (width: 600px) {
+    .content-title {
+        margin-top: 25%;
+    }
+
+    .content-buy {
+        left: 35%;
+    }
+    
+    .content-shop-detail-item {
+        padding-bottom: 5%;
+    }
+}
+
+/* Half of tablet and mobile */
+@media (width: 667px) {
+    .content-title {
+        margin-top: 20%;
+    }
+
+    .content-buy {
+        left: 38%;
+    }
+}
+
+/* Mobile horizontal */
+@media (width: 736px) {
+    .content-title {
+        margin-top: 15%;
+    }
+
+    .content-desc {
+        margin-top: 15%;
+    }
+
+    .content-buy {
+        left: 41%;
+        margin-top: 6%;
+    }
+}

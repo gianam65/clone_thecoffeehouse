@@ -1,0 +1,34 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --main-color: #ea8025;
+    --hover-color: #d16a13;
+    --hover-clone-color: #ebebeb;
+    --height-menu: 60px;
+    --height-menu-mobile: 50px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.glolbal-underlined {
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background-color: var(--black-color);
+    bottom: 0%;
+    display: block;
+}
+
+.active {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
