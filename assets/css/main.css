@@ -328,6 +328,7 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
+    letter-spacing: -1px;
 }
 
 .home-product-item-price {
@@ -337,6 +338,7 @@
     letter-spacing: 2px;
     margin: 12px 0;
     display: block;
+    letter-spacing: -1px;
 }
 
 .home-product-item-global {
