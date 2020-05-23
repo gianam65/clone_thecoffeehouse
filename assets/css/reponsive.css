@@ -90,6 +90,7 @@
     }
 
     .content-title {
+        margin-top: 15%;
         font-size: 2.2rem;
         padding-left: 15px;
         text-align: center;
@@ -220,6 +221,7 @@
 
     .content-buy {
         left: 38%;
+        margin-top: 10px;
     }
 }
 
@@ -236,5 +238,51 @@
     .content-buy {
         left: 41%;
         margin-top: 6%;
+    }
+}
+
+/* Ipad pro */
+@media (width: 1024px) {
+    .header__nav-logo {
+        font-size: 2rem;
+    }
+
+    .header__nav-link {
+        padding: 0;
+        overflow: hidden;
+        line-height: 2rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        letter-spacing: -1px;
+    }
+
+    .home-product-item-more {
+        max-height: 3rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        margin-top: -4px;
+        overflow: hidden;
+    }
+
+    .home-product-item-buy {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        margin-top: -4px;
+        overflow: hidden;
+    }
+    
+    .middle-blog-link {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        margin-top: -4px;
+        overflow: hidden;
+    }
+
+    .content-shop-detail-item {
+        margin-top: 10%;
     }
 }
